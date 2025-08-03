@@ -10,16 +10,16 @@ export default function Navbar() {
         </a>
         <ul className="navbar-nav mx-auto d-flex flex-row align-items-center gap-4">
           <li className="nav-item text-center">
-            <img src="/img/home.png" width="30" alt="Home" />
+            <img src="" width="30" alt="Home" />
             <div className="fw-bold">Homes</div>
           </li>
           <li className="nav-item text-center position-relative">
-            <img src="/img/balloon.png" width="30" alt="Experiences" />
+            <img src="" width="30" alt="Experiences" />
             <span className="badge bg-primary position-absolute top-0 start-100 translate-middle rounded-pill small">NEW</span>
             <div>Experiences</div>
           </li>
           <li className="nav-item text-center position-relative">
-            <img src="/img/bell.png" width="30" alt="Services" />
+            <img src="" width="30" alt="Services" />
             <span className="badge bg-primary position-absolute top-0 start-100 translate-middle rounded-pill small">NEW</span>
             <div>Services</div>
           </li>
