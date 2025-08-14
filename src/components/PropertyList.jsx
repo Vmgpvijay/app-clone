@@ -6,7 +6,7 @@ function PropertyList() {
   const [properties, setProperties] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3005/properties')
+    fetch('http://localhost:3000/properties')
       .then(response => response.json())
       .then(data => setProperties(data))
       .catch(error => console.error('Error fetching properties:', error));

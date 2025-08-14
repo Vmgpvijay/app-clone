@@ -18,24 +18,24 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
       <div className="container-fluid align-items-center">
         <a className="navbar-brand d-flex align-items-center" href="#">
-          <img src="#" alt="Airbnb" width="100" />
+          <img src="src\airbnblogo.png" alt="Airbnb" width="100" height="70" />
         </a>
 
         <ul className="navbar-nav mx-auto d-flex flex-row align-items-center gap-4">
           <li className="nav-item text-center">
-            <img src="#" width="30" alt="Home" />
+            <i className="bi bi-house-door-fill"></i>
             <div className="fw-bold">Homes</div>
           </li>
           <li className="nav-item text-center position-relative">
-            <img src="#" width="30" alt="Experiences" />
-            <span className="badge bg-primary position-absolute top-0 start-100 translate-middle rounded-pill small">
+            <i className="bi bi-fast-forward-fill"></i>
+            <span className="badge bg-secondary position-absolute top-0 start-100 translate-middle rounded-pill small">
               NEW
             </span>
             <div>Experiences</div>
           </li>
           <li className="nav-item text-center position-relative">
-            <img src="#" width="30" alt="Services" />
-            <span className="badge bg-primary position-absolute top-0 start-100 translate-middle rounded-pill small">
+            <i className="bi bi-clipboard-plus-fill"></i>
+            <span className="badge bg-secondary position-absolute top-0 start-100 mx-1 translate-middle rounded-pill small">
               NEW
             </span>
             <div>Services</div>
@@ -44,7 +44,7 @@ export default function Navbar() {
 
         <div className="d-flex align-items-center gap-3">
           <p className="mb-0">Become a host</p>
-          <button className="btn btn-light rounded-circle">
+          <button className="btn btn-light rounded-circle " data-bs-toggle="modal" data-bs-target="#languageModal">
             <i className="bi bi-globe"></i>
           </button>
           <button className="btn btn-light rounded-circle">

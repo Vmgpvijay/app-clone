@@ -4,19 +4,19 @@
       "title": "Cozy Beach House",
       "location": "Goa, India",
       "price": 120,
-      "image": "http://localhost:3001/assets/property1.jpg"
+      "image": "/assets/property1.jpg"
     },
     {
       "title": "Mountain Retreat",
       "location": "Manali, India",
       "price": 95,
-      "image": "http://localhost:3001/assets/property1.jpg"
+      "image": "/assets/property1.jpg"
     },
     {
       "title": "Luxury Apartment",
       "location": "Mumbai, India",
       "price": 200,
-      "image": "http://localhost:3001/assets/property1.jpg"
+      "image": "/assets/property1.jpg"
     }
   ]
 }
